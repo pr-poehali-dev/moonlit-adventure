@@ -81,26 +81,24 @@ export default function HeroSection() {
                 <p className="mt-4 max-w-sm text-base text-white/60 leading-relaxed">
                   Useless, useless! I thought I told you this, Johnny Joestar! That I'd tear you apart if you came within two meters of me... no other organism on Earth can match up to a dinosaur's speed!
                 </p>
-                <div className="mt-4 flex flex-col gap-3">
+                <div className="mt-4 flex gap-6">
                 <a
                   href="https://vk.com/idliketodosomethingnice"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 text-sm text-white/40 hover:text-white/70 transition-colors"
+                  className="flex flex-col items-center gap-2 text-xs text-white/40 hover:text-white/70 transition-colors"
                 >
-                  <img src="https://cdn.poehali.dev/projects/f33eabec-073b-41ae-bacf-e85c6ec562ad/bucket/91dc8539-f2eb-4297-bb11-26aa521a5caf.png" alt="" className="h-4 w-4 object-contain" />
-                  <img src="https://cdn.poehali.dev/projects/f33eabec-073b-41ae-bacf-e85c6ec562ad/bucket/60f9802a-a4eb-4676-928b-40ac85c13c94.png" alt="" className="h-4 w-4 object-contain" />
+                  <img src="https://cdn.poehali.dev/projects/f33eabec-073b-41ae-bacf-e85c6ec562ad/bucket/60f9802a-a4eb-4676-928b-40ac85c13c94.png" alt="" className="h-10 w-10 object-contain" />
                   Author's VK
                 </a>
                 <a
                   href="https://jojo.fandom.com/ru/wiki/Типы_стендов#Материализованные"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-3 inline-flex items-center gap-3 rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-white/60 hover:border-white/30 hover:bg-white/10 hover:text-white/90 transition-all"
+                  className="flex flex-col items-center gap-2 text-xs text-white/40 hover:text-white/70 transition-colors"
                 >
-                  <img src="https://cdn.poehali.dev/projects/f33eabec-073b-41ae-bacf-e85c6ec562ad/bucket/91dc8539-f2eb-4297-bb11-26aa521a5caf.png" alt="" className="h-5 w-5 object-contain" />
-                  <span className="text-sm font-light tracking-wide">Scary Monsters</span>
-                  <Icon name="ExternalLink" size={13} className="ml-auto text-white/30" />
+                  <img src="https://cdn.poehali.dev/projects/f33eabec-073b-41ae-bacf-e85c6ec562ad/bucket/91dc8539-f2eb-4297-bb11-26aa521a5caf.png" alt="" className="h-10 w-10 object-contain" />
+                  Scary Monsters
                 </a>
                 </div>
               </div>
