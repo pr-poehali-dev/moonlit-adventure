@@ -54,14 +54,7 @@ function EmojiReactions() {
             </button>
           ))}
         </div>
-        <div className="flex items-center gap-2">
-          <img
-            src="https://cdn.poehali.dev/projects/f33eabec-073b-41ae-bacf-e85c6ec562ad/bucket/f76c97f7-a0fd-4dbe-8479-fe709434fe23.png"
-            alt=""
-            className="h-7 w-7 object-contain opacity-60"
-          />
-          <span className="text-[10px] text-white/25 leading-tight">Scary Monsters<br/>реагируют на тебя</span>
-        </div>
+
       </div>
       {/* Floating emoji animations */}
       <div className="pointer-events-none absolute -top-2 left-4 overflow-visible">
