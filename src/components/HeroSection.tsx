@@ -81,11 +81,12 @@ export default function HeroSection() {
                 <p className="mt-4 max-w-sm text-base text-white/60 leading-relaxed">
                   Useless, useless! I thought I told you this, Johnny Joestar! That I'd tear you apart if you came within two meters of me... no other organism on Earth can match up to a dinosaur's speed!
                 </p>
+                <div className="mt-4 flex flex-col gap-3">
                 <a
                   href="https://vk.com/idliketodosomethingnice"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-4 inline-flex items-center gap-2 text-sm text-white/40 hover:text-white/70 transition-colors"
+                  className="inline-flex items-center gap-2 text-sm text-white/40 hover:text-white/70 transition-colors"
                 >
                   <Icon name="ExternalLink" size={14} />
                   Author's VK
@@ -100,6 +101,7 @@ export default function HeroSection() {
                   <span className="text-sm font-light tracking-wide">Scary Monsters</span>
                   <Icon name="ExternalLink" size={13} className="ml-auto text-white/30" />
                 </a>
+                </div>
               </div>
             </div>
           </div>
