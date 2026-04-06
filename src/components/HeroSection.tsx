@@ -13,8 +13,8 @@ const playlist = [
 ];
 
 const photos = [
-  'https://cdn.poehali.dev/projects/f33eabec-073b-41ae-bacf-e85c6ec562ad/bucket/770bfe92-e20a-4f21-b3a2-edbc3062912e.jpg',
   'https://cdn.poehali.dev/projects/f33eabec-073b-41ae-bacf-e85c6ec562ad/bucket/4be00ea0-b31f-43c6-afa4-6d7dba708b5b.jpg',
+  'https://cdn.poehali.dev/projects/f33eabec-073b-41ae-bacf-e85c6ec562ad/bucket/770bfe92-e20a-4f21-b3a2-edbc3062912e.jpg',
   'https://cdn.poehali.dev/projects/f33eabec-073b-41ae-bacf-e85c6ec562ad/bucket/0b758631-0c98-46a1-9d63-5a7c17b6b23f.jpg',
 ];
 
@@ -81,6 +81,15 @@ export default function HeroSection() {
                 <p className="mt-4 max-w-sm text-base text-white/60 leading-relaxed">
                   Useless, useless! I thought I told you this, Johnny Joestar! That I'd tear you apart if you came within two meters of me... no other organism on Earth can match up to a dinosaur's speed!
                 </p>
+                <a
+                  href="https://vk.com/idliketodosomethingnice"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-4 inline-flex items-center gap-2 text-sm text-white/40 hover:text-white/70 transition-colors"
+                >
+                  <Icon name="ExternalLink" size={14} />
+                  Author's VK
+                </a>
               </div>
             </div>
           </div>
