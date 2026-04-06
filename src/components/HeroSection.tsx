@@ -139,11 +139,11 @@ export default function HeroSection() {
                   isLoaded ? 'translate-x-0 opacity-100' : '-translate-x-8 opacity-0'
                 )}
               >
-                <div className="relative h-28 w-28 overflow-hidden rounded-full border-4 shadow-2xl sm:h-40 sm:w-40 md:h-56 md:w-56" style={{borderColor: '#1e3a4a', boxShadow: '0 0 30px rgba(30,58,74,0.8), 0 0 60px rgba(30,58,74,0.3)'}}>
+                <div className="relative overflow-hidden rounded-xl border-2 shadow-2xl" style={{borderColor: '#1e3a4a', boxShadow: '0 0 30px rgba(30,58,74,0.8), 0 0 60px rgba(30,58,74,0.3)'}}>
                   <img
                     src="https://i.pinimg.com/originals/e6/a8/19/e6a819c8dda3dc98e5c66c2e03218c23.gif"
                     alt="Diego DIO Brando"
-                    className="h-full w-full object-cover object-top"
+                    className="block w-48 sm:w-64 md:w-80 object-contain"
                   />
                 </div>
               </div>
