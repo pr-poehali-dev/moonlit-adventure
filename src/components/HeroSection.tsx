@@ -13,9 +13,9 @@ const playlist = [
 ];
 
 const photos = [
-  'https://cdn.poehali.dev/templates/creative-portfolio-ru/gallery-1.jpg',
-  'https://cdn.poehali.dev/templates/creative-portfolio-ru/gallery-2.jpg',
-  'https://cdn.poehali.dev/templates/creative-portfolio-ru/gallery-4.jpg',
+  'https://cdn.poehali.dev/projects/f33eabec-073b-41ae-bacf-e85c6ec562ad/bucket/770bfe92-e20a-4f21-b3a2-edbc3062912e.jpg',
+  'https://cdn.poehali.dev/projects/f33eabec-073b-41ae-bacf-e85c6ec562ad/bucket/4be00ea0-b31f-43c6-afa4-6d7dba708b5b.jpg',
+  'https://cdn.poehali.dev/projects/f33eabec-073b-41ae-bacf-e85c6ec562ad/bucket/0b758631-0c98-46a1-9d63-5a7c17b6b23f.jpg',
 ];
 
 export default function HeroSection() {
