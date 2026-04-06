@@ -88,7 +88,7 @@ export default function HeroSection() {
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-sm text-white/40 hover:text-white/70 transition-colors"
                 >
-                  <Icon name="ExternalLink" size={14} />
+                  <img src="https://cdn.poehali.dev/projects/f33eabec-073b-41ae-bacf-e85c6ec562ad/bucket/91dc8539-f2eb-4297-bb11-26aa521a5caf.png" alt="" className="h-4 w-4 object-contain" />
                   Author's VK
                 </a>
                 <a
@@ -97,7 +97,7 @@ export default function HeroSection() {
                   rel="noopener noreferrer"
                   className="mt-3 inline-flex items-center gap-3 rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-white/60 hover:border-white/30 hover:bg-white/10 hover:text-white/90 transition-all"
                 >
-                  <Icon name="Zap" size={16} className="text-white/40" />
+                  <img src="https://cdn.poehali.dev/projects/f33eabec-073b-41ae-bacf-e85c6ec562ad/bucket/91dc8539-f2eb-4297-bb11-26aa521a5caf.png" alt="" className="h-5 w-5 object-contain" />
                   <span className="text-sm font-light tracking-wide">Scary Monsters</span>
                   <Icon name="ExternalLink" size={13} className="ml-auto text-white/30" />
                 </a>
