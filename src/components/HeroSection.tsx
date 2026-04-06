@@ -159,7 +159,8 @@ export default function HeroSection() {
             rel="noopener noreferrer"
             className="group relative overflow-hidden rounded-2xl border border-white/10 bg-zinc-900 aspect-video flex items-center justify-center transition-all hover:border-white/30"
           >
-            <div className="absolute inset-0 bg-gradient-to-br from-zinc-800 to-black" />
+            <img src="https://cdn.poehali.dev/projects/f33eabec-073b-41ae-bacf-e85c6ec562ad/bucket/12fb1a4b-9530-4e7c-bd27-c4bd637387f7.jpg" alt="" className="absolute inset-0 h-full w-full object-cover opacity-70 group-hover:opacity-90 transition-opacity duration-300" />
+            <div className="absolute inset-0 bg-black/40" />
             <div className="relative z-10 text-center">
               <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-white/10 group-hover:bg-white/20 transition-colors border border-white/20 sm:h-20 sm:w-20">
                 <Icon name="Play" size={28} className="text-white ml-1 sm:text-3xl" />
