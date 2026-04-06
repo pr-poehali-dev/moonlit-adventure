@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { cn } from '@/lib/utils';
 import Icon from '@/components/ui/icon';
 
-const EMOJI_OPTIONS = ['🦕', '🦖', '💀', '🩸', '⚡', '🌀', '🔥', '👑'];
+const EMOJI_OPTIONS = ['🦕', '🦖', '🐊', '🦴', '🥚', '🌿'];
 
 function EmojiReactions() {
   const [reactions, setReactions] = useState<{ emoji: string; id: number }[]>([]);
