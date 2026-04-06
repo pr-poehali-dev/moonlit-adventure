@@ -92,7 +92,7 @@ export default function HeroSection() {
                   Author's VK
                 </a>
                 <a
-                  href="https://jojo.fandom.com/ru/wiki/Типы_стендов#Материализованные"
+                  href="https://jojo.fandom.com/ru/wiki/Scary_Monsters"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex flex-col items-center gap-2 text-xs text-white/40 hover:text-white/70 transition-colors"
