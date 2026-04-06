@@ -134,7 +134,7 @@ export default function HeroSection() {
         <div className="container mx-auto max-w-2xl">
           <h2 className="mb-8 text-2xl font-light tracking-widest uppercase text-white/50">Видео</h2>
           <a
-            href="https://vt.tiktok.com/ZSHffnEJx/"
+            href="https://www.tiktok.com/@xkirbyyy_/video/7508524276996214046"
             target="_blank"
             rel="noopener noreferrer"
             className="group relative overflow-hidden rounded-2xl border border-white/10 bg-zinc-900 aspect-video flex items-center justify-center transition-all hover:border-white/30"
