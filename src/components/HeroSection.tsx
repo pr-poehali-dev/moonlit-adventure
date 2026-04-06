@@ -63,11 +63,11 @@ export default function HeroSection() {
                   isLoaded ? 'translate-x-0 opacity-100' : '-translate-x-8 opacity-0'
                 )}
               >
-                <div className="relative h-40 w-40 overflow-hidden rounded-full border-4 border-white/80 shadow-2xl md:h-56 md:w-56">
+                <div className="relative h-40 w-40 overflow-hidden rounded-full border-4 shadow-2xl md:h-56 md:w-56" style={{borderColor: '#2dd4bf'}}>
                   <img
-                    src="https://cdn.poehali.dev/templates/creative-portfolio-ru/portrait.jpg"
-                    alt="Фото артиста"
-                    className="h-full w-full object-cover"
+                    src="https://cdn.poehali.dev/projects/f33eabec-073b-41ae-bacf-e85c6ec562ad/bucket/06d49d54-3797-4153-9d85-1435f3f0c53a.png"
+                    alt="Diego DIO Brando"
+                    className="h-full w-full object-cover object-top"
                   />
                 </div>
               </div>
@@ -79,7 +79,7 @@ export default function HeroSection() {
                   isLoaded ? 'translate-x-0 opacity-100' : '-translate-x-8 opacity-0'
                 )}
               >
-                <p className="text-4xl font-light md:text-5xl lg:text-6xl">Ваше Имя</p>
+                <p className="text-4xl font-light md:text-5xl lg:text-6xl">Diego <span style={{color: '#2dd4bf'}}>"DIO"</span> Brando</p>
                 <p className="mt-2 text-xl font-light text-white/70 md:text-2xl">Музыкант · Автор · Исполнитель</p>
                 <p className="mt-4 max-w-sm text-base text-white/60 leading-relaxed">
                   Небольшое описание о себе — жанр, стиль, вдохновение. Пара предложений, которые расскажут вашу историю.
