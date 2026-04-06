@@ -7,9 +7,9 @@ const bgImages = [
 ];
 
 const playlist = [
-  { title: 'Трек 1', artist: 'Исполнитель', url: 'https://music.yandex.ru' },
-  { title: 'Трек 2', artist: 'Исполнитель', url: 'https://music.yandex.ru' },
-  { title: 'Трек 3', artist: 'Исполнитель', url: 'https://music.yandex.ru' },
+  { title: 'Трек 1', artist: 'Исполнитель', url: 'https://vk.com/audio-2001027365_4027365' },
+  { title: 'Трек 2', artist: 'Исполнитель', url: 'https://vk.com/audio-2001032301_45032301' },
+  { title: 'Трек 3', artist: 'Исполнитель', url: 'https://vk.com/audio-2001236907_41236907' },
 ];
 
 const photos = [
