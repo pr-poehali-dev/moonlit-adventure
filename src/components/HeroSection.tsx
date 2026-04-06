@@ -3,10 +3,7 @@ import { cn } from '@/lib/utils';
 import Icon from '@/components/ui/icon';
 
 const bgImages = [
-  'https://cdn.poehali.dev/templates/creative-portfolio-ru/gallery-2.jpg',
-  'https://cdn.poehali.dev/templates/creative-portfolio-ru/gallery-1.jpg',
-  'https://cdn.poehali.dev/templates/creative-portfolio-ru/gallery-4.jpg',
-  'https://cdn.poehali.dev/templates/creative-portfolio-ru/gallery-5.jpg',
+  'https://cdn.poehali.dev/projects/f33eabec-073b-41ae-bacf-e85c6ec562ad/bucket/ae37a29c-308b-4eff-b72f-d1645772b1cf.jpg',
 ];
 
 const playlist = [
@@ -46,7 +43,7 @@ export default function HeroSection() {
                 currentIndex === index ? 'opacity-100' : 'opacity-0'
               )}
             >
-              <img src={src} alt="" className="h-full w-full object-cover" />
+              <img src={src} alt="" className="h-full w-full object-cover" style={{filter: 'contrast(1.2) brightness(1.05) saturate(1.1)', imageRendering: 'crisp-edges'}} />
             </div>
           ))}
         </div>
