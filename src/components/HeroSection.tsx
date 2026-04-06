@@ -131,7 +131,7 @@ export default function HeroSection() {
 
         <div className="relative z-10 flex min-h-screen items-center py-16">
           <div className="container mx-auto px-5 sm:px-8 md:px-16">
-            <div className="flex max-w-xl flex-col gap-6">
+            <div className="flex max-w-sm flex-col gap-6">
               {/* Avatar */}
               <div
                 className={cn(
@@ -139,11 +139,11 @@ export default function HeroSection() {
                   isLoaded ? 'translate-x-0 opacity-100' : '-translate-x-8 opacity-0'
                 )}
               >
-                <div className="relative overflow-hidden rounded-xl border-2 shadow-2xl" style={{borderColor: '#1e3a4a', boxShadow: '0 0 30px rgba(30,58,74,0.8), 0 0 60px rgba(30,58,74,0.3)'}}>
+                <div className="relative overflow-hidden rounded-xl border-2 shadow-2xl inline-block" style={{borderColor: '#1e3a4a', boxShadow: '0 0 30px rgba(30,58,74,0.8), 0 0 60px rgba(30,58,74,0.3)'}}>
                   <img
                     src="https://i.pinimg.com/originals/e6/a8/19/e6a819c8dda3dc98e5c66c2e03218c23.gif"
                     alt="Diego DIO Brando"
-                    className="block w-48 sm:w-64 md:w-80 object-contain"
+                    className="block w-40 sm:w-52 object-contain"
                   />
                 </div>
               </div>
