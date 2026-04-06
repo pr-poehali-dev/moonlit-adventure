@@ -3,7 +3,7 @@ import { cn } from '@/lib/utils';
 import Icon from '@/components/ui/icon';
 
 const bgImages = [
-  'https://cdn.poehali.dev/projects/f33eabec-073b-41ae-bacf-e85c6ec562ad/bucket/ae37a29c-308b-4eff-b72f-d1645772b1cf.jpg',
+  'https://cdn.poehali.dev/projects/f33eabec-073b-41ae-bacf-e85c6ec562ad/bucket/ae2d226b-eabc-409f-8b58-264f3ef833a3.jpg',
 ];
 
 const playlist = [
@@ -43,12 +43,12 @@ export default function HeroSection() {
                 currentIndex === index ? 'opacity-100' : 'opacity-0'
               )}
             >
-              <img src={src} alt="" className="h-full w-full object-cover" style={{filter: 'contrast(1.2) brightness(1.05) saturate(1.1)', imageRendering: 'crisp-edges'}} />
+              <img src={src} alt="" className="h-full w-full object-cover" style={{filter: 'contrast(1.15) brightness(1.1) saturate(1.2)'}} />
             </div>
           ))}
         </div>
 
-        <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/60 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/95 via-black/70 to-black/20" />
 
         <div className="relative z-10 flex h-full items-center">
           <div className="container mx-auto px-8 md:px-16">
@@ -60,7 +60,7 @@ export default function HeroSection() {
                   isLoaded ? 'translate-x-0 opacity-100' : '-translate-x-8 opacity-0'
                 )}
               >
-                <div className="relative h-40 w-40 overflow-hidden rounded-full border-4 shadow-2xl md:h-56 md:w-56" style={{borderColor: '#2dd4bf'}}>
+                <div className="relative h-40 w-40 overflow-hidden rounded-full border-4 shadow-2xl md:h-56 md:w-56" style={{borderColor: '#1e3a4a', boxShadow: '0 0 30px rgba(30,58,74,0.8), 0 0 60px rgba(30,58,74,0.3)'}}>
                   <img
                     src="https://cdn.poehali.dev/projects/f33eabec-073b-41ae-bacf-e85c6ec562ad/bucket/06d49d54-3797-4153-9d85-1435f3f0c53a.png"
                     alt="Diego DIO Brando"
@@ -76,7 +76,7 @@ export default function HeroSection() {
                   isLoaded ? 'translate-x-0 opacity-100' : '-translate-x-8 opacity-0'
                 )}
               >
-                <p className="text-4xl font-light md:text-5xl lg:text-6xl">Diego <span style={{color: '#2dd4bf'}}>"DIO"</span> Brando</p>
+                <p className="text-4xl font-light md:text-5xl lg:text-6xl">Diego <span style={{color: '#7eb8cc'}}>"DIO"</span> Brando</p>
                 <p className="mt-2 text-xl font-light text-white/70 md:text-2xl">Музыкант · Автор · Исполнитель</p>
                 <p className="mt-4 max-w-sm text-base text-white/60 leading-relaxed">
                   Небольшое описание о себе — жанр, стиль, вдохновение. Пара предложений, которые расскажут вашу историю.
