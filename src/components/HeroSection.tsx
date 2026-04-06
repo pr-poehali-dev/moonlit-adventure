@@ -232,7 +232,7 @@ export default function HeroSection() {
       {/* Video */}
       <section className="bg-black py-12 px-5 sm:px-8 md:px-16">
         <div className="container mx-auto max-w-2xl">
-          <h2 className="mb-6 text-xl font-light tracking-widest uppercase text-white/50 sm:text-2xl sm:mb-8">Видео</h2>
+
           <a
             href="https://www.tiktok.com/@im_veo/video/7594612852795755798"
             target="_blank"
@@ -263,7 +263,7 @@ export default function HeroSection() {
       {/* Photos */}
       <section className="bg-zinc-950 py-12 px-5 pb-20 sm:px-8 sm:py-16 sm:pb-24 md:px-16">
         <div className="container mx-auto max-w-2xl">
-          <h2 className="mb-6 text-xl font-light tracking-widest uppercase text-white/50 sm:text-2xl sm:mb-8">Фотографии</h2>
+
           <div className="grid grid-cols-3 gap-2 sm:gap-3">
             {photos.map((src, i) => (
               <div key={i} className="aspect-square overflow-hidden rounded-lg border border-white/10 sm:rounded-xl">
