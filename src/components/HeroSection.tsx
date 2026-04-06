@@ -90,6 +90,16 @@ export default function HeroSection() {
                   <Icon name="ExternalLink" size={14} />
                   Author's VK
                 </a>
+                <a
+                  href="https://jojo.fandom.com/ru/wiki/Типы_стендов#Материализованные"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-3 inline-flex items-center gap-3 rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-white/60 hover:border-white/30 hover:bg-white/10 hover:text-white/90 transition-all"
+                >
+                  <Icon name="Zap" size={16} className="text-white/40" />
+                  <span className="text-sm font-light tracking-wide">Scary Monsters</span>
+                  <Icon name="ExternalLink" size={13} className="ml-auto text-white/30" />
+                </a>
               </div>
             </div>
           </div>
