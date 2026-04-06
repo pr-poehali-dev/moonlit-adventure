@@ -133,12 +133,20 @@ export default function HeroSection() {
       <section className="bg-black py-16 px-8 md:px-16">
         <div className="container mx-auto max-w-2xl">
           <h2 className="mb-8 text-2xl font-light tracking-widest uppercase text-white/50">Видео</h2>
-          <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-zinc-900 aspect-video flex items-center justify-center">
-            <div className="text-center text-white/30">
-              <Icon name="Video" size={48} className="mx-auto mb-3 opacity-40" />
-              <p className="text-sm">Загрузите ваше видео</p>
+          <a
+            href="https://vt.tiktok.com/ZSHffnEJx/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative overflow-hidden rounded-2xl border border-white/10 bg-zinc-900 aspect-video flex items-center justify-center transition-all hover:border-white/30"
+          >
+            <div className="absolute inset-0 bg-gradient-to-br from-zinc-800 to-black" />
+            <div className="relative z-10 text-center">
+              <div className="mx-auto mb-4 flex h-20 w-20 items-center justify-center rounded-full bg-white/10 group-hover:bg-white/20 transition-colors border border-white/20">
+                <Icon name="Play" size={36} className="text-white ml-1" />
+              </div>
+              <p className="text-white/70 text-sm tracking-widest uppercase">Смотреть на TikTok</p>
             </div>
-          </div>
+          </a>
         </div>
       </section>
 
