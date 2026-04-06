@@ -89,6 +89,7 @@ export default function HeroSection() {
                   className="inline-flex items-center gap-2 text-sm text-white/40 hover:text-white/70 transition-colors"
                 >
                   <img src="https://cdn.poehali.dev/projects/f33eabec-073b-41ae-bacf-e85c6ec562ad/bucket/91dc8539-f2eb-4297-bb11-26aa521a5caf.png" alt="" className="h-4 w-4 object-contain" />
+                  <img src="https://cdn.poehali.dev/projects/f33eabec-073b-41ae-bacf-e85c6ec562ad/bucket/60f9802a-a4eb-4676-928b-40ac85c13c94.png" alt="" className="h-4 w-4 object-contain" />
                   Author's VK
                 </a>
                 <a
