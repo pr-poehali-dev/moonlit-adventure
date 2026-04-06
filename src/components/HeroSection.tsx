@@ -2,6 +2,92 @@ import { useEffect, useState } from 'react';
 import { cn } from '@/lib/utils';
 import Icon from '@/components/ui/icon';
 
+const EMOJI_OPTIONS = ['🦕', '🦖', '💀', '🩸', '⚡', '🌀', '🔥', '👑'];
+
+function EmojiReactions() {
+  const [reactions, setReactions] = useState<{ emoji: string; id: number }[]>([]);
+  const [counts, setCounts] = useState<Record<string, number>>({});
+
+  useEffect(() => {
+    const saved = localStorage.getItem('emoji_reactions');
+    if (saved) setCounts(JSON.parse(saved));
+  }, []);
+
+  const addEmoji = (emoji: string) => {
+    const id = Date.now() + Math.random();
+    setReactions((prev) => [...prev, { emoji, id }]);
+    setCounts((prev) => {
+      const next = { ...prev, [emoji]: (prev[emoji] || 0) + 1 };
+      localStorage.setItem('emoji_reactions', JSON.stringify(next));
+      return next;
+    });
+    setTimeout(() => setReactions((prev) => prev.filter((r) => r.id !== id)), 1500);
+  };
+
+  const total = Object.values(counts).reduce((a, b) => a + b, 0);
+
+  return (
+    <div className="mt-6 relative">
+      <div className="rounded-[28px] border border-white/15 bg-white/5 px-4 py-3 flex flex-col gap-3 max-w-xs backdrop-blur-sm">
+        <div className="flex items-center justify-between">
+          <span className="text-xs text-white/40 tracking-wide">Оставь эмодзи</span>
+          {total > 0 && (
+            <span className="text-xs text-white/30">{total} реакций</span>
+          )}
+        </div>
+        <div className="flex gap-2 flex-wrap">
+          {EMOJI_OPTIONS.map((emoji) => (
+            <button
+              key={emoji}
+              onClick={() => addEmoji(emoji)}
+              className="relative flex flex-col items-center gap-0.5 group"
+            >
+              <span className="text-xl transition-transform group-hover:scale-125 duration-150 select-none"
+                style={{ filter: 'drop-shadow(0 0 4px rgba(255,255,255,0.15))' }}>
+                {emoji}
+              </span>
+              {counts[emoji] ? (
+                <span className="text-[10px] text-white/40 group-hover:text-white/70 transition-colors">{counts[emoji]}</span>
+              ) : (
+                <span className="text-[10px] text-white/0">0</span>
+              )}
+            </button>
+          ))}
+        </div>
+        <div className="flex items-center gap-2">
+          <img
+            src="https://cdn.poehali.dev/projects/f33eabec-073b-41ae-bacf-e85c6ec562ad/bucket/f76c97f7-a0fd-4dbe-8479-fe709434fe23.png"
+            alt=""
+            className="h-7 w-7 object-contain opacity-60"
+          />
+          <span className="text-[10px] text-white/25 leading-tight">Scary Monsters<br/>реагируют на тебя</span>
+        </div>
+      </div>
+      {/* Floating emoji animations */}
+      <div className="pointer-events-none absolute -top-2 left-4 overflow-visible">
+        {reactions.map((r) => (
+          <span
+            key={r.id}
+            className="absolute text-2xl animate-bounce"
+            style={{
+              left: `${Math.random() * 80}px`,
+              animation: 'floatUp 1.5s ease-out forwards',
+            }}
+          >
+            {r.emoji}
+          </span>
+        ))}
+      </div>
+      <style>{`
+        @keyframes floatUp {
+          0% { opacity: 1; transform: translateY(0) scale(1); }
+          100% { opacity: 0; transform: translateY(-60px) scale(1.4); }
+        }
+      `}</style>
+    </div>
+  );
+}
+
 const bgImages = [
   'https://cdn.poehali.dev/projects/f33eabec-073b-41ae-bacf-e85c6ec562ad/bucket/ae2d226b-eabc-409f-8b58-264f3ef833a3.jpg',
 ];
@@ -101,6 +187,7 @@ export default function HeroSection() {
                     Scary Monsters
                   </a>
                 </div>
+                <EmojiReactions />
               </div>
             </div>
           </div>
