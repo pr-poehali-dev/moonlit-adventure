@@ -77,9 +77,9 @@ export default function HeroSection() {
                 )}
               >
                 <p className="text-4xl font-light md:text-5xl lg:text-6xl">Diego <span style={{color: '#7eb8cc'}}>"DIO"</span> Brando</p>
-                <p className="mt-2 text-xl font-light text-white/70 md:text-2xl">Музыкант · Автор · Исполнитель</p>
+                <p className="mt-2 text-xl font-light text-white/70 md:text-2xl">British jockey</p>
                 <p className="mt-4 max-w-sm text-base text-white/60 leading-relaxed">
-                  Небольшое описание о себе — жанр, стиль, вдохновение. Пара предложений, которые расскажут вашу историю.
+                  Useless, useless! I thought I told you this, Johnny Joestar! That I'd tear you apart if you came within two meters of me... no other organism on Earth can match up to a dinosaur's speed!
                 </p>
               </div>
             </div>
