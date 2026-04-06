@@ -141,7 +141,7 @@ export default function HeroSection() {
               >
                 <div className="relative h-28 w-28 overflow-hidden rounded-full border-4 shadow-2xl sm:h-40 sm:w-40 md:h-56 md:w-56" style={{borderColor: '#1e3a4a', boxShadow: '0 0 30px rgba(30,58,74,0.8), 0 0 60px rgba(30,58,74,0.3)'}}>
                   <img
-                    src="https://cdn.poehali.dev/projects/f33eabec-073b-41ae-bacf-e85c6ec562ad/bucket/06d49d54-3797-4153-9d85-1435f3f0c53a.png"
+                    src="https://i.pinimg.com/originals/e6/a8/19/e6a819c8dda3dc98e5c66c2e03218c23.gif"
                     alt="Diego DIO Brando"
                     className="h-full w-full object-cover object-top"
                   />
