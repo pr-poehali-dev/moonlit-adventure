@@ -156,6 +156,15 @@ export default function HeroSection() {
               <p className="text-white/70 text-sm tracking-widest uppercase">Смотреть на TikTok</p>
             </div>
           </a>
+          <a
+            href="https://ru.pinterest.com/pin/115052965476739442/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-4 inline-flex items-center gap-2 text-sm text-white/40 hover:text-white/70 transition-colors"
+          >
+            <Icon name="Heart" size={14} />
+            For the most wonderful woman
+          </a>
         </div>
       </section>
 
